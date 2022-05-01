@@ -1,0 +1,1082 @@
+[
+    {
+        "id": "dbdf12aef15d83fa",
+        "type": "tab",
+        "label": "Final",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "95ab6401611caf31",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "ตรวจสอบสถานะและสั่งงานอุปกรณ์",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "5bcdbb79c082c2dc",
+            "7b4782b23fa5d506",
+            "d40ea74380dbdf58",
+            "8b49e36cc9b85a26"
+        ],
+        "x": 534,
+        "y": 259,
+        "w": 672,
+        "h": 122
+    },
+    {
+        "id": "0fa053a275a7c38e",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "แจ้งเตือนไปที่แอพพลิเคชัน",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#d1d1d1"
+        },
+        "nodes": [
+            "1f14c78289a5af11",
+            "4df27060a550a25f"
+        ],
+        "x": 1054,
+        "y": 359,
+        "w": 392,
+        "h": 82
+    },
+    {
+        "id": "cc14289c49e94e0d",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "ตรวจสอบสถานะและสั่งงานอุปกรณ์",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "bcc5783994f1ae7e",
+            "27ef1ee873bca366",
+            "82c712489fc2ba97",
+            "2781137b92aa52ad"
+        ],
+        "x": 534,
+        "y": 599,
+        "w": 672,
+        "h": 122
+    },
+    {
+        "id": "6d0f2aef2127a39d",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "แจ้งเตือนไปที่แอพพลิเคชัน",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#d1d1d1"
+        },
+        "nodes": [
+            "f9cdeb9260eb6519",
+            "eec736b95ec79427"
+        ],
+        "x": 1054,
+        "y": 699,
+        "w": 392,
+        "h": 82
+    },
+    {
+        "id": "98d8dfcca98ad8b0",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "บันทึกค่าที่ผู้ใช้กำหนดลงในหน่วยความจำ",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#dbcbe7"
+        },
+        "nodes": [
+            "5d77c1260b82c4d3",
+            "2c92e101751f7d01",
+            "90e556fa37c2b6e8",
+            "50bce80e85c63217"
+        ],
+        "x": 514,
+        "y": 839,
+        "w": 532,
+        "h": 142
+    },
+    {
+        "id": "10f6577a3b0d56de",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "สั่งเริ่มทำงานทุก 1 นาที",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#bfdbef"
+        },
+        "nodes": [
+            "2f91edd975ad6a53"
+        ],
+        "x": 94,
+        "y": 339,
+        "w": 172,
+        "h": 82
+    },
+    {
+        "id": "03de75e841d36b0e",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "ตรวจสอบโหมดอัตโนมัติ",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#bfc7d7"
+        },
+        "nodes": [
+            "18411d07c8938cb7"
+        ],
+        "x": 274,
+        "y": 339,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "42beaf99cac357ab",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "อ่านค่าอุณหภูมิภายในห้อง โดยเฉลี่ยค่าในเวลา 15 นาที",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#ffefbf"
+        },
+        "nodes": [
+            "693f47a3c77922b5",
+            "5be4a847208b34bf"
+        ],
+        "x": 514,
+        "y": 159,
+        "w": 452,
+        "h": 82
+    },
+    {
+        "id": "e1efdbd4ad766365",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "อ่านค่าอุณหภูมิภายนอกห้อง โดยเฉลี่ยค่าในเวลา 15 นาที",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#ffefbf"
+        },
+        "nodes": [
+            "1642befea006bf91",
+            "6921d2ab4d95436f"
+        ],
+        "x": 514,
+        "y": 499,
+        "w": 452,
+        "h": 82
+    },
+    {
+        "id": "6d4ba9c222bf9f40",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "อุณหภูมิมากกว่า on-threshold ให้ทำงานต่อ",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#ffffbf"
+        },
+        "nodes": [
+            "a1dcdb0b7298e0ee"
+        ],
+        "x": 974,
+        "y": 159,
+        "w": 257,
+        "h": 82
+    },
+    {
+        "id": "94c799012866c390",
+        "type": "group",
+        "z": "dbdf12aef15d83fa",
+        "name": "อุณหภูมิน้อยกว่า off-threshold ให้ทำงานต่อ",
+        "style": {
+            "label": true,
+            "color": "#000000",
+            "stroke": "none",
+            "fill": "#ffffbf"
+        },
+        "nodes": [
+            "85c1f4065726deeb"
+        ],
+        "x": 974,
+        "y": 499,
+        "w": 258,
+        "h": 82
+    },
+    {
+        "id": "2f91edd975ad6a53",
+        "type": "inject",
+        "z": "dbdf12aef15d83fa",
+        "g": "10f6577a3b0d56de",
+        "name": "เริ่ม",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "topic": "timer",
+        "payload": "",
+        "payloadType": "str",
+        "x": 190,
+        "y": 380,
+        "wires": [
+            [
+                "18411d07c8938cb7"
+            ]
+        ]
+    },
+    {
+        "id": "693f47a3c77922b5",
+        "type": "api-current-state",
+        "z": "dbdf12aef15d83fa",
+        "g": "42beaf99cac357ab",
+        "name": "อ่านค่าอุณหภูมิภายในห้อง",
+        "server": "4fd007a4.063d18",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.indoor_temperature",
+        "state_type": "num",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 650,
+        "y": 200,
+        "wires": [
+            [
+                "5be4a847208b34bf"
+            ]
+        ]
+    },
+    {
+        "id": "5be4a847208b34bf",
+        "type": "smooth",
+        "z": "dbdf12aef15d83fa",
+        "g": "42beaf99cac357ab",
+        "name": "เฉลี่ยค่า 15 นาที",
+        "property": "payload",
+        "action": "mean",
+        "count": "15",
+        "round": "2",
+        "mult": "single",
+        "reduce": false,
+        "x": 860,
+        "y": 200,
+        "wires": [
+            [
+                "a1dcdb0b7298e0ee"
+            ]
+        ]
+    },
+    {
+        "id": "a1dcdb0b7298e0ee",
+        "type": "switch",
+        "z": "dbdf12aef15d83fa",
+        "g": "6d4ba9c222bf9f40",
+        "name": "เงื่อนไข",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "on-threshold",
+                "vt": "flow"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1060,
+        "y": 200,
+        "wires": [
+            [
+                "d40ea74380dbdf58"
+            ]
+        ]
+    },
+    {
+        "id": "5d77c1260b82c4d3",
+        "type": "server-state-changed",
+        "z": "dbdf12aef15d83fa",
+        "g": "98d8dfcca98ad8b0",
+        "name": "อ่านการตั้งค่าอุณหภูมิ",
+        "server": "4fd007a4.063d18",
+        "version": 4,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "entityidfilter": "input_number.temp_threshold",
+        "entityidfiltertype": "exact",
+        "outputinitially": true,
+        "state_type": "num",
+        "haltifstate": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "output_only_on_state_change": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 630,
+        "y": 940,
+        "wires": [
+            [
+                "2c92e101751f7d01"
+            ]
+        ]
+    },
+    {
+        "id": "2c92e101751f7d01",
+        "type": "function",
+        "z": "dbdf12aef15d83fa",
+        "g": "98d8dfcca98ad8b0",
+        "name": "เก็บค่าลงไฟล์",
+        "func": "if(msg.payload != null){\n    flow.set(\"on-threshold\", msg.payload);\n    flow.set(\"off-threshold\", msg.payload-2);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5bcdbb79c082c2dc",
+        "type": "api-call-service",
+        "z": "dbdf12aef15d83fa",
+        "g": "95ab6401611caf31",
+        "name": "เปิดแอร์",
+        "server": "4fd007a4.063d18",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.sonoff_100102c883_2"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1120,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b4782b23fa5d506",
+        "type": "api-call-service",
+        "z": "dbdf12aef15d83fa",
+        "g": "95ab6401611caf31",
+        "name": "ปิดพัดลม",
+        "server": "4fd007a4.063d18",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.sonoff_100102c883_1"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 800,
+        "y": 300,
+        "wires": [
+            [
+                "8b49e36cc9b85a26"
+            ]
+        ]
+    },
+    {
+        "id": "d40ea74380dbdf58",
+        "type": "api-current-state",
+        "z": "dbdf12aef15d83fa",
+        "g": "95ab6401611caf31",
+        "name": "ถ้าพัดลม เปิด",
+        "server": "4fd007a4.063d18",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "switch.sonoff_100102c883_1",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 630,
+        "y": 340,
+        "wires": [
+            [],
+            [
+                "8b49e36cc9b85a26"
+            ]
+        ]
+    },
+    {
+        "id": "8b49e36cc9b85a26",
+        "type": "api-current-state",
+        "z": "dbdf12aef15d83fa",
+        "g": "95ab6401611caf31",
+        "name": "ถ้าแอร์ ปิด",
+        "server": "4fd007a4.063d18",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "switch.sonoff_100102c883_2",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 960,
+        "y": 340,
+        "wires": [
+            [],
+            [
+                "4df27060a550a25f"
+            ]
+        ]
+    },
+    {
+        "id": "bcc5783994f1ae7e",
+        "type": "api-call-service",
+        "z": "dbdf12aef15d83fa",
+        "g": "cc14289c49e94e0d",
+        "name": "เปิดพัดลม",
+        "server": "4fd007a4.063d18",
+        "version": 5,
+        "debugenabled": true,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.sonoff_100102c883_1"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1120,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "27ef1ee873bca366",
+        "type": "api-call-service",
+        "z": "dbdf12aef15d83fa",
+        "g": "cc14289c49e94e0d",
+        "name": "ปิดแอร์",
+        "server": "4fd007a4.063d18",
+        "version": 5,
+        "debugenabled": true,
+        "domain": "switch",
+        "service": "turn_off",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.sonoff_100102c883_2"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 790,
+        "y": 640,
+        "wires": [
+            [
+                "82c712489fc2ba97"
+            ]
+        ]
+    },
+    {
+        "id": "82c712489fc2ba97",
+        "type": "api-current-state",
+        "z": "dbdf12aef15d83fa",
+        "g": "cc14289c49e94e0d",
+        "name": "ถ้าพัดลม ปิด",
+        "server": "4fd007a4.063d18",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "switch.sonoff_100102c883_1",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 950,
+        "y": 680,
+        "wires": [
+            [],
+            [
+                "eec736b95ec79427"
+            ]
+        ]
+    },
+    {
+        "id": "2781137b92aa52ad",
+        "type": "api-current-state",
+        "z": "dbdf12aef15d83fa",
+        "g": "cc14289c49e94e0d",
+        "name": "ถ้าแอร์ เปิด",
+        "server": "4fd007a4.063d18",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "switch.sonoff_100102c883_2",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 630,
+        "y": 680,
+        "wires": [
+            [],
+            [
+                "82c712489fc2ba97"
+            ]
+        ]
+    },
+    {
+        "id": "1f14c78289a5af11",
+        "type": "api-call-service",
+        "z": "dbdf12aef15d83fa",
+        "g": "0fa053a275a7c38e",
+        "name": "ส่งการแจ้งเตือน",
+        "server": "4fd007a4.063d18",
+        "version": 5,
+        "debugenabled": true,
+        "domain": "notify",
+        "service": "notify",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1340,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1642befea006bf91",
+        "type": "api-current-state",
+        "z": "dbdf12aef15d83fa",
+        "g": "e1efdbd4ad766365",
+        "name": "อ่านค่าอุณหภูมิภายนอกห้อง",
+        "server": "4fd007a4.063d18",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.outdoor_temperature",
+        "state_type": "num",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 650,
+        "y": 540,
+        "wires": [
+            [
+                "6921d2ab4d95436f"
+            ]
+        ]
+    },
+    {
+        "id": "6921d2ab4d95436f",
+        "type": "smooth",
+        "z": "dbdf12aef15d83fa",
+        "g": "e1efdbd4ad766365",
+        "name": "เฉลี่ยค่า 15 นาที",
+        "property": "payload",
+        "action": "mean",
+        "count": "15",
+        "round": "2",
+        "mult": "single",
+        "reduce": false,
+        "x": 860,
+        "y": 540,
+        "wires": [
+            [
+                "85c1f4065726deeb"
+            ]
+        ]
+    },
+    {
+        "id": "85c1f4065726deeb",
+        "type": "switch",
+        "z": "dbdf12aef15d83fa",
+        "g": "94c799012866c390",
+        "name": "เงื่อนไข",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lte",
+                "v": "off-threshold",
+                "vt": "flow"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1060,
+        "y": 540,
+        "wires": [
+            [
+                "2781137b92aa52ad"
+            ]
+        ]
+    },
+    {
+        "id": "f9cdeb9260eb6519",
+        "type": "api-call-service",
+        "z": "dbdf12aef15d83fa",
+        "g": "6d0f2aef2127a39d",
+        "name": "ส่งการแจ้งเตือน",
+        "server": "4fd007a4.063d18",
+        "version": 5,
+        "debugenabled": true,
+        "domain": "notify",
+        "service": "notify",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1340,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eec736b95ec79427",
+        "type": "change",
+        "z": "dbdf12aef15d83fa",
+        "g": "6d0f2aef2127a39d",
+        "name": "สร้างการแจ้งเตือน",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.data.title",
+                "pt": "msg",
+                "to": "ห้องหมา",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.data.message",
+                "pt": "msg",
+                "to": "\"อุณหภูมิ \" & payload.temp & \" องศา<br>ปิดแอร์ เปิดพัดลมแล้ว\"\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 740,
+        "wires": [
+            [
+                "f9cdeb9260eb6519"
+            ]
+        ]
+    },
+    {
+        "id": "4df27060a550a25f",
+        "type": "change",
+        "z": "dbdf12aef15d83fa",
+        "g": "0fa053a275a7c38e",
+        "name": "สร้างการแจ้งเตือน",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temp",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.data.title",
+                "pt": "msg",
+                "to": "ห้องหมา",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.data.message",
+                "pt": "msg",
+                "to": "\"อุณหภูมิ \" & payload.temp & \" องศา<br>ปิดพัดลม เปิดแอร์แล้ว\"\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 400,
+        "wires": [
+            [
+                "1f14c78289a5af11"
+            ]
+        ]
+    },
+    {
+        "id": "90e556fa37c2b6e8",
+        "type": "server-state-changed",
+        "z": "dbdf12aef15d83fa",
+        "g": "98d8dfcca98ad8b0",
+        "name": "อ่านการตั้งค่าสวิตช์อัตโนมัติ",
+        "server": "4fd007a4.063d18",
+        "version": 4,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "entityidfilter": "input_boolean.auto_mode",
+        "entityidfiltertype": "exact",
+        "outputinitially": true,
+        "state_type": "habool",
+        "haltifstate": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "output_only_on_state_change": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 650,
+        "y": 880,
+        "wires": [
+            [
+                "50bce80e85c63217"
+            ]
+        ]
+    },
+    {
+        "id": "18411d07c8938cb7",
+        "type": "switch",
+        "z": "dbdf12aef15d83fa",
+        "g": "03de75e841d36b0e",
+        "name": "ตรวจสอบค่า",
+        "property": "#:(file)::auto_mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 370,
+        "y": 380,
+        "wires": [
+            [
+                "693f47a3c77922b5",
+                "1642befea006bf91"
+            ]
+        ]
+    },
+    {
+        "id": "50bce80e85c63217",
+        "type": "function",
+        "z": "dbdf12aef15d83fa",
+        "g": "98d8dfcca98ad8b0",
+        "name": "เก็บค่าลงไฟล์",
+        "func": "if(msg.payload != null){\n    flow.set(\"auto_mode\", msg.payload);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4fd007a4.063d18",
+        "type": "server",
+        "name": "Home Assistant",
+        "version": 2,
+        "addon": true,
+        "rejectUnauthorizedCerts": true,
+        "ha_boolean": "y|yes|true|on|home|open",
+        "connectionDelay": true,
+        "cacheJson": true,
+        "heartbeat": false,
+        "heartbeatInterval": "30"
+    }
+]
